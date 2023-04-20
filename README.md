@@ -18,6 +18,7 @@ En este repositorio se va a explicar el funcionamiento y configuración del soft
 :six: [Comprobaciones y pruebas](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/seis.md)
 
 ## Referencias
-[Referencias]()
+[Referencias](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/referencias.md)
+
 ## Licencia
 ![LICENCIA](https://github.com/kikelopser/tarea-chocolatey/blob/main/Imagenes/licencia.png)
