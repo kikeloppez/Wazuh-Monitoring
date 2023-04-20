@@ -78,4 +78,5 @@ Si nos vamos a la seccion de *Security Events* vemos que podemos visualizar los 
 Si quiero que los datos de Seguridad y Vulnerabilidad se envien por correo, debo configurar un [Servidor PostFix](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/cuatro.md) antes de activar las Vulnerabilidades.
 
 En caso de querer unicamente activar los modulos de Vulnerabilidades para poder monitorearlos, vaya al [punto 4.](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/cinco.md)
+
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
