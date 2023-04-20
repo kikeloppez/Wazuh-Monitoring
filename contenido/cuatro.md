@@ -101,6 +101,7 @@ Modificamos las siguientes lineas.
 ```
 
 Quedaría de la siguiente forma.
+
 ![config4](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config4.png)
 
 La linea marcada también podemos modificarla para indicar el numero de correos que se enviarán a la hora.
