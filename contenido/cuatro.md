@@ -45,7 +45,6 @@ En mi caso vamos a seguir con Gmail.
 
 **Importante revisar que ninguna linea se repita**
 
-Ahora vamos a poner las credenciales del correo. 
 ***En esta parte tenemos que usar una clave de aplicación que debemos configurar en Gmail, Outlook, y otros servicios***
 
 Para encontrar la clave de aplicación en Gmail, debemos seguir los pasos del siguiente [enlace.](https://support.google.com/accounts/answer/185833?hl=es)
