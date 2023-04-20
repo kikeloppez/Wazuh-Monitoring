@@ -52,8 +52,10 @@ Para encontrar la clave de aplicación en Gmail, debemos seguir los pasos del si
 También puedes seguir el siguiente [video.](https://youtu.be/UoytTy1s47g)
 
 Una vez la tenemos, la copiamos y la guardamos en algun lugar seguro.
+
+Ejecutamos estos comandos con las credenciales.
 ```
-echo [smtp.gmail.com]:587 USERNAME@gmail.com:PASSWORD > /etc/postfix/sasl_passwd
+echo [smtp.gmail.com]:587 email@gmail.com:CLAVE.DE.APP > /etc/postfix/sasl_passwd
 postmap /etc/postfix/sasl_passwd
 chmod 400 /etc/postfix/sasl_passwd
 ```
