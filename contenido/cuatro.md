@@ -100,4 +100,9 @@ Quedaría de la siguiente forma.
 
 La linea marcada también podemos modificarla para indicar el numero de correos que se enviarán a la hora.
 
+Finalmente, reiniciamos el servicio de Wazuh Manager.
+```
+systemctl restart wazuh-manager
+```
+
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
