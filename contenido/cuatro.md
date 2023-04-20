@@ -87,6 +87,7 @@ Modificamos el siguiente fichero.
 nano /var/ossec/etc/ossec.conf
 ```
 El fichero se encuentra de la siguiente forma.
+
 ![config3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config3.png)
 
 Modificamos las siguientes lineas.
