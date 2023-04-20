@@ -20,7 +20,8 @@ nano /var/ossec/etc/shared/agent.conf
 </wodle>
 ```
 De forma que quede así.
-![config1]()
+
+![config1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas4/config1.png)
 
 ### 2.- Activar caracteristica en Servidor/Manager
 
@@ -31,9 +32,11 @@ nano /var/ossec/etc/ossec.conf
 
 Podemos comprobar que la sección *enabled* esta desactivada. Hay que cambiar el *no* por *yes*. Tambien hay que activar con *yes* todos los sistemas que queremos que escanee.
 
+![config2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas4/config2.png)
+
 Tendría que quedar de la siguiente forma.
 
-![config3]()
+![config3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas4/config3.png)
 
 Finalmente reiniciamos el servicio y comprobamos.
 ```
