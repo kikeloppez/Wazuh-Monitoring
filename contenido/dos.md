@@ -10,4 +10,10 @@ Para realizar la instalación necesitamos una maquina con un sistema base de Ubu
 
 En esta prueba voy a usar una Maquina Virtual en VirtualBox con las caracteristicas minimas indicadas anteriormente.
 
+1.- Configurar MV/Server
+
+![1]()
+![2]()
+
+
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
