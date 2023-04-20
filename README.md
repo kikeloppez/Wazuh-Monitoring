@@ -16,3 +16,6 @@ En este repositorio se va a explicar el funcionamiento y configuración del soft
 :five: [Activar detección de vulnerabilidades](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/cinco.md)
 
 :six: [Comprobaciones y pruebas](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/seis.md)
+
+## Licencia
+![LICENCIA](https://github.com/kikelopser/tarea-chocolatey/blob/main/Imagenes/licencia.png)
