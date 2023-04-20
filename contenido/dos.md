@@ -50,15 +50,16 @@ Ejecutamos el siguiente comando para instalar el paquete Wazuh
 curl -sO https://packages.wazuh.com/4.4/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
 ![install1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/install1.png)
+![install1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/install2.png)
 
 Tras finalizar la instalación y configuración automatica, vamos al navegador e ingresamos con los datos que nos facilita en pantalla. Para acceder debemos *Mostrar los ajustes avanzados* y clickar en *Acceder a*.
-![dash1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/install2.png)
+![dash1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/dash1.png)
 
 Aconsejo apuntar las credenciales en algun lugar seguro.
 ![dash2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/dash2.png)
 
 Finalmente ya tenemos el Dashboard de Wazuh instalado.
-![dash3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/dash1.png)
+![dash3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/dash3.png)
 
 Vemos que no tenemos ningun cliente activo, por lo que vamos a pasar a instalar [clientes en Wazuh](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/tres.md)
 
