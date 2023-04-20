@@ -56,5 +56,24 @@ chmod 400 /etc/postfix/sasl_passwd
 ```
 ![config2]()
 
+Ejecutamos los siguientes comandos.
+```
+chown root:root /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
+chmod 0600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
+```
+
+Reiniciamos el servicio PostFix.
+```
+systemctl restart postfix
+```
+
+Realizamos una prueba de funcionamiento mediante el siguiente comando.
+```
+echo "Test mail from postfix" | mail -s "Test Postfix" -r "you@example.com" you@example.com
+```
+
+Comprobamos que han llegado los correros.
+![prueba1]()
+![prueba2]()
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
