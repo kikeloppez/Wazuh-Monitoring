@@ -20,9 +20,29 @@ nano /etc/network/interfaces
 ```
 ![ip_estatica]()
 
-Aplicamos la configuración con el siguiente comando
+Aplicamos la configuración con el siguiente comando.
 ```
 systemctl restart networking.service
 ```
+
+### 2.- Instalación del paquete Wazuh Agent.
+
+En primer lugar ejecutamos el siguiente comando para instalar los paquetes *curl* y *gpg*
+```
+apt install curl gpg -y
+```
+Ejecutamos el siguiente comando.
+```
+curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
+```
+![clave]()
+
+Añadimos repositorios.
+```
+echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
+```
+![repos]()
+
+
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
