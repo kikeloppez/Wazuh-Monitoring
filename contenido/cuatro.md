@@ -42,4 +42,20 @@ En mi caso vamos a seguir con Gmail.
 
 **Importante revisar que ninguna linea se repita**
 
+Ahora vamos a poner las credenciales del correo
+```
+echo [smtp.gmail.com]:587 USERNAME@gmail.com:PASSWORD > /etc/postfix/sasl_passwd
+postmap /etc/postfix/sasl_passwd
+chmod 400 /etc/postfix/sasl_passwd
+```
+
+***En esta parte tenemos que usar una clave de aplicación que debemos configurar en Gmail, Outlook, y otros servicios***
+
+Para encontrar la clave de aplicación en Gmail, debemos seguir los pasos del siguiente [enlace.](https://support.google.com/accounts/answer/185833?hl=es)
+También puedes seguir el siguiente video.
+
+Una vez la tenemos, la copiamos y la guardamos en algun lugar seguro.
+
+
+
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
