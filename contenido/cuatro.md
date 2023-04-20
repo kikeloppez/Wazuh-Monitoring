@@ -76,6 +76,28 @@ Comprobamos que han llegado los correros.
 ![prueba1]()
 ![prueba2]()
 
-### Configuración del servicio Wazuh
+### 2.- Configuración del servicio Wazuh
+
+Modificamos el siguiente fichero.
+```
+nano /var/ossec/etc/ossec.conf
+```
+El fichero se encuentra de la siguiente forma.
+![config3]()
+
+Modificamos las siguientes lineas.
+```
+<global>
+  <email_notification>yes</email_notification>
+  <smtp_server>localhost</smtp_server>
+  <email_from>USERNAME@gmail.com</email_from>
+  <email_to>you@example.com</email_to>
+</global>
+```
+
+Quedaría de la siguiente forma.
+![config4]()
+
+La linea marcada también podemos modificarla para indicar el numero de correos que se enviarán a la hora.
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
