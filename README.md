@@ -1,6 +1,6 @@
 # Wazuh | Software de Monitoreo Open Source
 En este repositorio se va a explicar el funcionamiento y configuración del software de monitoreo Wazuh.
-![WAZUH](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/wazuh.png)
+![WAZUH](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/logo-wazuh.png)
 
 ## Indice
 :one: [¿Que es Wazuh?](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/uno.md)
