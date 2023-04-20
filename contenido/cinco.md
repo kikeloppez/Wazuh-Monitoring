@@ -1,0 +1,1 @@
+# Activar detección de vulnerabilidades
