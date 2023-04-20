@@ -69,4 +69,10 @@ systemctl start wazuh-agent
 ```
 ![demonios]()
 
+Una vez realizado todos los pasos, vamos al Dashboard y recargamos la pagina, una vez cargada veremos que el Servidor detecta un agente. **Este paso lo debemos hacer hasta que todos los agentes esten añadidos**
+
+Si nos vamos a la seccion de *Security Events* vemos que podemos visualizar los datos, pero si accedemos a la sección de Vulnerabilidades podemos comprobar que no recibe ningun dato.
+
+Si quiero que los datos de Seguridad y Vulnerabilidad se envien por correo, debo configurar un [Servidor PostFix] antes de activar las Vulnerabilidades.
+
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
