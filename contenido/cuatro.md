@@ -9,7 +9,7 @@ Vamos a instalar una serie de paquetes que son necesarios para el funcionamiento
 apt-get update && apt-get install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules
 ```
 
-Clickamos sobre *Sitio de Internet*
+Clickamos sobre *Sitio de Internet*.
 ![install1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/install1.png)
 
 Dejamos el nombre por defecto.
