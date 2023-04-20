@@ -12,8 +12,9 @@ En esta prueba voy a usar una Maquina Virtual en VirtualBox con las caracteristi
 
 ### 1.- Configurar MV/Server
 
-![1]()
-![2]()
+![mv1]()
+![mv2]()
+![mv3]()
 
 Una vez logueado como usuario administrador o sudo su, debemos asegurarnos que el sistema está actualizado y tiene IP estatica.
 
@@ -33,6 +34,20 @@ nano /etc/netplan/00-installer-config.yaml
 ```
 ![ip_estatica]()
 
+Para aplicar la configuración usamos
+```
+netplan apply
+```
 
+### 2.- Instalación de Wazuh
+
+Primeramente comprobamos que tengamos instalados los paquetes *curl* y *gpg*
+```
+apt install curl gpg -y
+```
+Ejecutamos el siguiente comando para instalar el paquete Wazuh
+```
+curl -sO https://packages.wazuh.com/4.4/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+```
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
