@@ -17,3 +17,5 @@ Algunas funciones son:
 Wazuh, al igual que OSSEC, puede descargarse y configurarse fácilmente. De hecho, su código fuente puede ser modificado y ajustado, según las necesidades de cada compañía
 
 Referencia: https://keepcoding.io/blog/que-es-wazuh/
+
+:arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
