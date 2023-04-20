@@ -15,15 +15,24 @@ En esta prueba voy a usar una Maquina Virtual en VirtualBox con las caracteristi
 ![1]()
 ![2]()
 
-Una vez logueado como usuario administrador o sudo su, debemos establecer una IP estatica. Lo mas optimo es ver la IP que nos ha establecido el servidor DHCP y configurarla para dejarla estatica. Usando el siguiente comando podemos ver la IP que tenemos.
+Una vez logueado como usuario administrador o sudo su, debemos asegurarnos que el sistema está actualizado y tiene IP estatica.
+
+Para comprobar que nuestro sistema está actualizado debemos usar los siguientes comandos:
+```
+apt update && apt upgrade
+```
+
+Para configurar la IP, lo mas óptimo es ver la dirección que nos ha establecido el servidor DHCP y configurarla para dejarla estatica. Usando el siguiente comando podemos ver la IP que tenemos.
 ```
 ip a
 ```
 
-Ahora nos vamos al fichero de configuración:
-
+Ahora nos vamos al fichero de configuración de red y establecemos las propiedades:
 ```
 nano /etc/netplan/00-installer-config.yaml
 ```
+![ip_estatica]()
+
+
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
