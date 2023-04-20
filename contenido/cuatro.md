@@ -10,13 +10,13 @@ apt-get update && apt-get install postfix mailutils libsasl2-2 ca-certificates l
 ```
 
 Clickamos sobre *Sitio de Internet*
-![install1]()
+![install1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/install1.png)
 
 Dejamos el nombre por defecto.
-![install2]()
+![install2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/install2.png)
 
 En caso de que nos pida reiniciar algun servicio, desmarcamos todos y avanzamos.
-![install3]()
+![install3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/install3.png)
 
 Ahora vamos a modificar el fichero de configuración de PostFix.
 ```
@@ -38,7 +38,7 @@ En caso de querer enviar los correros a un servicio Outlook o diferente debemos 
 relayhost = [smtp.mail.outlook.com]:587
 ```
 En mi caso vamos a seguir con Gmail.
-![config1]()
+![config1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config1.png)
 
 **Importante revisar que ninguna linea se repita**
 
@@ -54,7 +54,7 @@ echo [smtp.gmail.com]:587 USERNAME@gmail.com:PASSWORD > /etc/postfix/sasl_passwd
 postmap /etc/postfix/sasl_passwd
 chmod 400 /etc/postfix/sasl_passwd
 ```
-![config2]()
+![config2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config2.png)
 
 Ejecutamos los siguientes comandos.
 ```
@@ -73,8 +73,8 @@ echo "Test mail from postfix" | mail -s "Test Postfix" -r "you@example.com" you@
 ```
 
 Comprobamos que han llegado los correros.
-![prueba1]()
-![prueba2]()
+![prueba1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/prueba1.png)
+![prueba2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config2.png)
 
 ### 2.- Configuración del servicio Wazuh
 
@@ -83,7 +83,7 @@ Modificamos el siguiente fichero.
 nano /var/ossec/etc/ossec.conf
 ```
 El fichero se encuentra de la siguiente forma.
-![config3]()
+![config3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config3.png)
 
 Modificamos las siguientes lineas.
 ```
@@ -96,7 +96,7 @@ Modificamos las siguientes lineas.
 ```
 
 Quedaría de la siguiente forma.
-![config4]()
+![config4](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config4.png)
 
 La linea marcada también podemos modificarla para indicar el numero de correos que se enviarán a la hora.
 
