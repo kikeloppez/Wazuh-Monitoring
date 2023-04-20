@@ -6,4 +6,23 @@ Para esta prueba vamos a realizar la conexión con un cliente Debian 11, aunque 
 
 En caso de querer establecer la conexión con otro sistema, clicke en el siguiente [enlace](https://wazuh.com/install/) y desplacese hasta el final de la página, donde encontrarás todos los sistemas admitidos por Wazuh.
 
+### 1.- Configuración del Cliente
+
+
+En primer lugar vamos a acceder como superusuario y comprobar que el equipo esté actualizado, para ello usaremos el siguiente comando.
+```
+apt update && apt upgrade -y
+```
+
+También vamos a establecer una IP estatica. Para ello modificamos el siguiente fichero y añadimos las siguientes lineas.
+```
+nano /etc/network/interfaces
+```
+![ip_estatica]()
+
+Aplicamos la configuración con el siguiente comando
+```
+systemctl restart networking.service
+```
+
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
