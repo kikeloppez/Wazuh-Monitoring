@@ -43,6 +43,16 @@ echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4
 ```
 ![repos]()
 
+Realizamos una actualización de repositorios
+```
+apt update
+````
 
+***En caso de usar una version de debian inferior a la 11 usa los siguientes comandos***
+```
+apt-get install gnupg apt-transport-https
+curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | apt-key add -
+echo "deb https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
+```
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
