@@ -18,7 +18,7 @@ También vamos a establecer una IP estatica. Para ello modificamos el siguiente 
 ```
 nano /etc/network/interfaces
 ```
-![ip_estatica]()
+![ip_estatica](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas2/ip_estatica.png)
 
 Aplicamos la configuración con el siguiente comando.
 ```
@@ -35,13 +35,13 @@ Ejecutamos el siguiente comando.
 ```
 curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
 ```
-![clave]()
+![clave](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas2/clave.png)
 
 Añadimos repositorios.
 ```
 echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
 ```
-![repos]()
+![repos](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas2/repos.png)
 
 Realizamos una actualización de repositorios.
 ```
@@ -59,7 +59,7 @@ Instalamos el paquete Wazuh Agent.
 ```
 WAZUH_MANAGER="IP.DEL.SERVIDOR" apt-get install wazuh-agent
 ```
-![install1]()
+![install1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas2/install1.png)
 
 Finalmente debemos reiniciar demonios y servicios.
 ```
@@ -67,14 +67,15 @@ systemctl daemon-reload
 systemctl enable wazuh-agent
 systemctl start wazuh-agent
 ```
-![demonios]()
+![demonios](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas2/demonios.png)
 
 Una vez realizado todos los pasos, vamos al Dashboard y recargamos la pagina, una vez cargada veremos que el Servidor detecta un agente. **Este paso lo debemos hacer hasta que todos los agentes esten añadidos**
-![agentes]()
+![agentes](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas2/agentes.png)
 
 Si nos vamos a la seccion de *Security Events* vemos que podemos visualizar los datos, pero si accedemos a la sección de Vulnerabilidades podemos comprobar que no recibe ningun dato.
-![security_events]()
+![security_events](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas2/security_events.png)
 
-Si quiero que los datos de Seguridad y Vulnerabilidad se envien por correo, debo configurar un [Servidor PostFix]() antes de activar las Vulnerabilidades.
+Si quiero que los datos de Seguridad y Vulnerabilidad se envien por correo, debo configurar un [Servidor PostFix](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/cuatro.md) antes de activar las Vulnerabilidades.
 
+En caso de querer unicamente activar los modulos de Vulnerabilidades para poder monitorearlos, vaya al [punto 4.](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/cinco.md)
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
