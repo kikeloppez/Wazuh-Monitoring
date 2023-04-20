@@ -18,8 +18,8 @@ En este repositorio se va a explicar el funcionamiento y configuración del soft
 :six: [Comprobaciones y pruebas](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/seis.md)
 
 ## Referencias
-https://documentation.wazuh.com/current/quickstart.html
-https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html
+[Paso 1](https://documentation.wazuh.com/current/quickstart.html)
+[Paso 2](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html)
 
 ## Licencia
 ![LICENCIA](https://github.com/kikelopser/tarea-chocolatey/blob/main/Imagenes/licencia.png)
