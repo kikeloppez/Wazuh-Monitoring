@@ -2,7 +2,7 @@
 
 En este paso vamos a configurar el servidor Wazuh para que funcione como Servidor de correo y pueda enviar una serie de alertas via email.
 
-### 1.- Configuración del servidor
+### 1.- Configuración de PostFix en Maquina Wazuh
 
 Vamos a instalar una serie de paquetes que son necesarios para el funcionamiento del servidor de correo.
 ```
@@ -75,5 +75,7 @@ echo "Test mail from postfix" | mail -s "Test Postfix" -r "you@example.com" you@
 Comprobamos que han llegado los correros.
 ![prueba1]()
 ![prueba2]()
+
+### Configuración del servicio Wazuh
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
