@@ -12,9 +12,9 @@ En esta prueba voy a usar una Maquina Virtual en VirtualBox con las caracteristi
 
 ### 1.- Configurar MV/Server
 
-![mv1]()
-![mv2]()
-![mv3]()
+![mv1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/mv1.png)
+![mv2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/mv2.png)
+![mv3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/mv3.png)
 
 Una vez logueado como usuario administrador o sudo su, debemos asegurarnos que el sistema está actualizado y tiene IP estatica.
 
@@ -32,7 +32,7 @@ Ahora nos vamos al fichero de configuración de red y establecemos las propiedad
 ```
 nano /etc/netplan/00-installer-config.yaml
 ```
-![ip_estatica]()
+![ip_estatica](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/ip_estatica.png)
 
 Para aplicar la configuración usamos
 ```
@@ -49,14 +49,14 @@ Ejecutamos el siguiente comando para instalar el paquete Wazuh
 ```
 curl -sO https://packages.wazuh.com/4.4/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
-![install1]()
+![install1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/install1.png)
 
 Tras finalizar la instalación y configuración automatica, vamos al navegador e ingresamos con los datos que nos facilita en pantalla. Para acceder debemos *Mostrar los ajustes avanzados* y clickar en *Acceder a*.
-![dash1]()
+![dash1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/install2.png)
 Aconsejo apuntar las credenciales en algun lugar seguro.
-![dash2]()
+![dash2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/dash2.png)
 Finalmente ya tenemos el Dashboard de Wazuh instalado.
-![dash3]()
+![dash3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas/dash1.png)
 
 Vemos que no tenemos ningun cliente activo, por lo que vamos a pasar a instalar [clientes en Wazuh](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/tres.md)
 
