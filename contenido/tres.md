@@ -4,7 +4,7 @@ Para poder monitorear los agentes, debemos instalar una serie de paquetes en el 
 
 Para esta prueba vamos a realizar la conexión con un cliente Debian 11, aunque la implementación de agentes está disponible para cualquier tipo de Sistema.
 
-En caso de querer establecer la conexión con otro sistema, clicke en el siguiente [enlace](https://wazuh.com/install/) y desplacese hasta el final de la página, donde encontrarás todos los sistemas admitidos por Wazuh.
+En caso de querer establecer la conexión con otro sistema, clicke en el siguiente [enlace](https://wazuh.com/install/) y ve hasta el final de la página, donde encontrarás todos los sistemas admitidos por Wazuh.
 
 ### 1.- Configuración del Cliente
 
