@@ -73,6 +73,6 @@ Una vez realizado todos los pasos, vamos al Dashboard y recargamos la pagina, un
 
 Si nos vamos a la seccion de *Security Events* vemos que podemos visualizar los datos, pero si accedemos a la sección de Vulnerabilidades podemos comprobar que no recibe ningun dato.
 
-Si quiero que los datos de Seguridad y Vulnerabilidad se envien por correo, debo configurar un [Servidor PostFix] antes de activar las Vulnerabilidades.
+Si quiero que los datos de Seguridad y Vulnerabilidad se envien por correo, debo configurar un [Servidor PostFix]() antes de activar las Vulnerabilidades.
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
