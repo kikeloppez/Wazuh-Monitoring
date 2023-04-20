@@ -1,5 +1,6 @@
 # Wazuh | Software de Monitoreo Open Source
 En este repositorio se va a explicar el funcionamiento y configuración del software de monitoreo Wazuh.
+![WAZUH](
 
 ## Indice
 :one: [¿Que es Wazuh?](
