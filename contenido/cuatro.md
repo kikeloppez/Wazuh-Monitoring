@@ -10,12 +10,15 @@ apt-get update && apt-get install postfix mailutils libsasl2-2 ca-certificates l
 ```
 
 Clickamos sobre *Sitio de Internet*.
+
 ![install1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/install1.png)
 
 Dejamos el nombre por defecto.
+
 ![install2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/install2.png)
 
 En caso de que nos pida reiniciar algun servicio, desmarcamos todos y avanzamos.
+
 ![install3](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/install3.png)
 
 Ahora vamos a modificar el fichero de configuración de PostFix.
