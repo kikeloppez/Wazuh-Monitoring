@@ -53,7 +53,10 @@ curl -sO https://packages.wazuh.com/4.4/wazuh-install.sh && sudo bash ./wazuh-in
 
 Tras finalizar la instalación y configuración automatica, vamos al navegador e ingresamos con los datos que nos facilita en pantalla. Para acceder debemos *Mostrar los ajustes avanzados* y clickar en *Acceder a*.
 ![dash1]()
+Aconsejo apuntar las credenciales en algun lugar seguro.
 ![dash2]()
-
+Finalmente ya tenemos el Dashboard de Wazuh instalado.
+![dash3]()
+Vemos que no tenemos ningun cliente activo, por lo que vamos a pasar a instalar [clientes en Wazuh]()
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
