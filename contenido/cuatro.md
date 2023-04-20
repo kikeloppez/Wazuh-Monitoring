@@ -78,7 +78,7 @@ echo "Test mail from postfix" | mail -s "Test Postfix" -r "you@example.com" you@
 
 Comprobamos que han llegado los correros.
 ![prueba1](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/prueba1.png)
-![prueba2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/config2.png)
+![prueba2](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/galeria/capturas3/prueba2.png)
 
 ### 2.- Configuración del servicio Wazuh
 
