@@ -57,6 +57,7 @@ Aconsejo apuntar las credenciales en algun lugar seguro.
 ![dash2]()
 Finalmente ya tenemos el Dashboard de Wazuh instalado.
 ![dash3]()
-Vemos que no tenemos ningun cliente activo, por lo que vamos a pasar a instalar [clientes en Wazuh]()
+
+Vemos que no tenemos ningun cliente activo, por lo que vamos a pasar a instalar [clientes en Wazuh](https://github.com/kikeloppez/Wazuh-Monitoring/blob/main/contenido/tres.md)
 
 :arrow_left: [VOLVER](https://github.com/kikeloppez/Wazuh-Monitoring)
